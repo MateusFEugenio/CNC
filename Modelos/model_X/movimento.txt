@@ -1,0 +1,7 @@
+Lar Ver
+Ho  aH  eixo roxo vai para frente 
+aH  oH  eixo roxo vai para trás
+
+ST  oH  eixo verde vem para esquerda
+aH  ST  eixo verde vem para direita
+
