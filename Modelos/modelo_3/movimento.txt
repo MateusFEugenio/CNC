@@ -9,5 +9,7 @@ size:
 90 + 75 = 165 mm
           120 mm
 
+volume de trabalho mínimo: 630x300x300
+
 
 
