@@ -1,6 +1,6 @@
 ## Modelo 3
 
-![Open video cad](https://raw.githubusercontent.com/CAS-IEEE-UFJF/CNC/master/Modelos/modelo_3/model_Xv5.avi)
+![Open video cad](https://raw.githubusercontent.com/CAS-IEEE-UFJF/CNC/master/Modelos/modelo_3/model_Xv5.mp4)
 
 gif base:
 
