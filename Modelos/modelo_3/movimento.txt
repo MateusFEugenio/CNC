@@ -1,0 +1,13 @@
+Lar Ver
+Ho  aH  eixo roxo vai para frente 
+aH  oH  eixo roxo vai para trás
+
+oH  oH  eixo verde vem para esquerda
+aH  aH  eixo verde vem para direita
+
+size:
+90 + 75 = 165 mm
+          120 mm
+
+
+
