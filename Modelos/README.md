@@ -1,10 +1,12 @@
-## Modelo 1 <3
+## Modelo 1 :green_heart:
 
 
 
 ## Modelo 3
 
-![Open video cad](https://raw.githubusercontent.com/CAS-IEEE-UFJF/CNC/master/Modelos/modelo_3/model_Xv5.mp4)
+CAD:
+
+![](modelo_3/model_Xv5.gif)
 
 gif base:
 
