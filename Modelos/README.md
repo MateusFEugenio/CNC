@@ -1,6 +1,8 @@
 ## Modelo 1 :green_heart:
 
+Tamanho máximo das PCB: **null:null mm**
 
+Dimensões **nullxnullxnull** mm
 
 ## Modelo 3
 
@@ -18,7 +20,7 @@ Dimensões **630x300x300** mm
 
 
 Vantagens
-  * Construção simples.
+  * Construção "simples".
 
 Desvantagem
   * Grande espaço físico para manobra dos braços.
