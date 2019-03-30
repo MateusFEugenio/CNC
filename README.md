@@ -1,9 +1,12 @@
 ### Objetivo
-  Fabricação de **PCB** (Printed Circuit Boards).
-
-![gif exemple](img_and_video/exemple.gif)<br>
-Exemplos de CNC
+  Fabricação de **PCB** (Printed Circuit Boards
 
 <hr>
 
-**Olhar os modelos disponíveis na pasta Modelos/**
+![gif exemple](img_and_video/exemple.gif)<br>
+**Exemplos de CNC**
+
+![gif model](img_and_video/model_01.gif)<br>
+**modelo atual** by fusion 360 autodesk.
+
+<hr>
