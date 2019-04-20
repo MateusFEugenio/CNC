@@ -19,14 +19,14 @@
   * Retificadora
 
 ### Construção fresadora
-  ##### Mecânica
+  #### Mecânica
   Modelagem de toda a estrutura usando Fusion 360. 
   
   Disponível em ../Modelos/modelo_1/
   
 ![CAD](img_and_video/caddd.jpg)
 
-  ##### Software
+  #### Software
   Criar nossa própria biblioteca (CNC_CAS_IEEE_UFJF.h) usando como base biblioteca motor passos do Arduino (Stepper) e o Microcontrolador atual é nodeMCU (ESP8266). 
   
   Disponível em ../code/
