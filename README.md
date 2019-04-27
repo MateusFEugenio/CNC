@@ -23,8 +23,10 @@
   Modelagem de toda a estrutura usando Fusion 360. 
   
   Disponível em ../Modelos/modelo_1/
-  ![Modelo online](https://a360.co/2vpg6Jw)
-  ![Cotas](https://a360.co/2vqaM8Y)
+
+  [Modelo online](https://a360.co/2vpg6Jw)
+  
+  [Cotas](https://a360.co/2vqaM8Y)
   
 ![CAD](img_and_video/caddd.jpg)
 
