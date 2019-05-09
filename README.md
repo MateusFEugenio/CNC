@@ -1,12 +1,38 @@
+## Fresadora CNC
+
 ### Objetivo
-  Fabricação de **PCB** (Printed Circuit Boards
+  Fabricação de **PCB** (Printed Circuit Boards) e usinagem de peças simples.
+
+| **Exemplos de fresadoras CNC** | **modelo atual** by fusion 360 autodesk |
+| --- | --- |
+| ![gif exemple](img_and_video/exemple.gif) | ![gif model](img_and_video/model_01.gif) |
 
 <hr>
 
-![gif exemple](img_and_video/exemple.gif)<br>
-**Exemplos de CNC**
+### CNC
+  CNC (Computer Numeric Control ou Controlo numérico computadorizado) é um sistema que permite o controle da máquina.
 
-![gif model](img_and_video/model_01.gif)<br>
-**modelo atual** by fusion 360 autodesk.
+  Tipos de máquinas que são variações da CNC:
+  * Fresadora
+  * Torno
+  * Jato de água
+  * Retificadora
 
-<hr>
+### Construção fresadora
+  #### Mecânica
+  Modelagem de toda a estrutura usando Fusion 360. 
+  
+  Disponível em ../Modelos/modelo_1/
+
+  [Modelo online](https://a360.co/2vpg6Jw)
+  
+  [Cotas](https://a360.co/2vqaM8Y)
+  
+![CAD](img_and_video/caddd.jpg)
+
+  #### Software
+  Criar nossa própria biblioteca (CNC_CAS_IEEE_UFJF.h) usando como base biblioteca motor passos do Arduino (Stepper) e o Microcontrolador atual é nodeMCU (ESP8266). 
+  
+  Disponível em ../code/
+  
+![code](img_and_video/photo_code.jpg)
