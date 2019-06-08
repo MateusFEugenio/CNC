@@ -1,47 +1,46 @@
-#include "CNC_CAS_IEEE_UFJF.h"
+/* Cógido feito no dia 6 de Junho de 2019 onde o teste fopi feito por movimento do motor 
+ *  fazendo inversão nas tecla do Teclado com as velocidades.
+*/
+#include <Stepper.h> 
 
-const int stepsPerRevolution = 200; //1.8º por passo
-
-Stepper_CNC myStepper(stepsPerRevolution, 8, 9, 10, 11);
-Stepper_CNC myStepper1(stepsPerRevolution, 4, 5, 6, 7);
-
-int n = 100;
-const int pot = A0;
-
-int n1 = 100;
-const int pot1 = A1;
-
-void setup ()
-{
-  myStepper.setSpeed(60);
-  myStepper1.setSpeed(60);
-
-  Serial.begin(115200);
-}
-
-void loop ()
-{
-  n++;
-  myStepper.step(n);
-  /*
-  int p = analogRead(pot);
-  if(p > 500)
-  {
-    myStepper.step(n);
-  }
-  if(p < 200)
-  {
-    myStepper.step(-n);
-  }
-
+const int stepsPerRevolution = 200; 
   
-  int p1 = analogRead(pot1);
-  if(p1 > 500)
+//Inicializa a biblioteca utilizando as portas de 8 a 11 para 
+//ligacao ao motor 
+Stepper myStepper(stepsPerRevolution, 8,10,9,11); 
+  
+void setup() 
+{ 
+ //Determina a velocidade inicial do motor 
+ myStepper.setSpeed(100);
+Serial.begin(9600);
+
+} 
+  
+
+void loop() {
+
+char tecla;
+if(Serial.available())
+{
+  tecla = Serial.read();
+
+  if(tecla == 'a')
   {
-    myStepper1.step(n1);
+     myStepper.step(-6000); 
+ Serial.println("Esquerda");
   }
-  if(p1 < 200)
-  {
-    myStepper1.step(-n1);
-  }*/
+
+ 
+if(tecla == 'd'){
+ myStepper.step(6000); 
+ Serial.println("direita");
+ }
+
+if(tecla == 's'){
+  myStepper.step(0);
+ 
+ Serial.println("Zero"); 
 }
+delay(10);
+}}
